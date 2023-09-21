@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>App Clima</title>
+</head>
+
+<body>
+    <header>
+        <h1>Clima del mundo</h1>
+    </header>
+    <main class="container-principal">
+        <section class="container-search">
+            <img src="./assets/location.svg" alt="Ubicacion" class="location-icon">
+            <input type="search" id="input-search" class="input-search" placeholder="Ingrese una ciudad">
+            <img src="./assets/search.svg" alt="Search" class="img-search">
+            <img src="./assets/loader.svg" alt="loader" class="loader">
+        </section>
+
+        <section class="container-tarjetas">
+            <div class="izquierda">
+                <span class="dia-actual">
+                    <p class="dia-actual-parrafo"></p>
+                    <img src="" alt="clima" class="dia-actual-icon">
+                    <p class="clima"></p>
+                    <div class="temperaturas">
+                        <img src="./assets/temperatura.svg" alt="Temperatura" class="temperatura-icon">
+                        <p class="actual"></p>
+                        <div class="actual-separador"></div>
+                        <div class="min-max">
+                            <p class="max"></p>
+                            <p class="min"></p>
+                        </div>
+                    </div>
+
+                    <div class="viento-humedad">
+                        <div class="viento">
+                            <img src="./assets/viento.svg" alt="viento" class="viento-icon">
+                            <p class="velocidad-viento"></p>
+                        </div>
+                        <div class="humedad">
+                            <img src="./assets/humedad.svg" alt="humedad" class="humedad-icon">
+                            <p class="porcentaje-humedad"></p>
+                        </div>
+                    </div>
+
+                    <div class="visibilidad-probabilidad-lluvia">
+                        <div class="visibilidad">
+                            <img src="./assets/visibilidad.svg" alt="visibilidad" class="visibilidad-icon">
+                            <p class="visibilidad-km"></p>
+                        </div>
+                        <div class="probabilidad-lluvia">
+                            <img src="./assets/probabilidad-lluvia.svg" alt="probabilidad lluvia" class="probabilidad-lluvia-icon">
+                            <p class="porcentaje-probilidad-lluvia"></p>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="derecha">
+                <p class="ciudad"></p>
+
+                <div class="derecha-tarjetas">
+
+                    <span class="dia-2">
+                        <p class="dia-2-parrafo"></p>
+                        <img src="" alt="clima" class="dia-2-icon">
+                        <p class="dia-2-clima"></p>
+                        <div class="dia-2-temperaturas">
+                            <img src="./assets/temperatura.svg" alt="Temperatura" class="dia-2-temperatura-icon">
+                            <p class="dia-2-actual"></p>
+                            <div class="dia-2-separador"></div>
+                            <div class="dia-2-min-max">
+                                <p class="dia-2-max"></p>
+                                <p class="dia-2-min"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-2-viento-humedad">
+                            <div class="dia-2-viento">
+                                <img src="./assets/viento.svg" alt="viento" class="dia-2-viento-icon">
+                                <p class="dia-2-velocidad-viento"></p>
+                            </div>
+                            <div class="dia-2-humedad">
+                                <img src="./assets/humedad.svg" alt="humedad" class="dia-2-humedad-icon">
+                                <p class="dia-2-porcentaje-humedad"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-2-visibilidad-probabilidad-lluvia">
+                            <div class="dia-2-visibilidad">
+                                <img src="./assets/visibilidad.svg" alt="visibilidad" class="dia-2-visibilidad-icon">
+                                <p class="dia-2-visibilidad-km"></p>
+                            </div>
+                            <div class="dia-2-probabilidad-lluvia">
+                                <img src="./assets/probabilidad-lluvia.svg" alt="probabilidad lluvia"
+                                    class="dia-2-probabilidad-lluvia-icon">
+                                <p class="dia-2-porcentaje-probilidad-lluvia"></p>
+                            </div>
+                        </div>
+                    </span>
+
+                    <span class="dia-3">
+                        <p class="dia-3-parrafo"></p>
+                        <img src="" alt="clima" class="dia-3-icon">
+                        <p class="dia-3-clima"></p>
+                        <div class="dia-3-temperaturas">
+                            <img src="./assets/temperatura.svg" alt="Temperatura" class="dia-3-temperatura-icon">
+                            <p class="dia-3-actual"></p>
+                            <div class="dia-3-separador"></div>
+                            <div class="dia-3-min-max">
+                                <p class="dia-3-max"></p>
+                                <p class="dia-3-min"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-3-viento-humedad">
+                            <div class="dia-3-viento">
+                                <img src="./assets/viento.svg" alt="viento" class="dia-3-viento-icon">
+                                <p class="dia-3-velocidad-viento"></p>
+                            </div>
+                            <div class="dia-3-humedad">
+                                <img src="./assets/humedad.svg" alt="humedad" class="dia-3-humedad-icon">
+                                <p class="dia-3-porcentaje-humedad"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-3-visibilidad-probabilidad-lluvia">
+                            <div class="dia-3-visibilidad">
+                                <img src="./assets/visibilidad.svg" alt="visibilidad" class="dia-3-visibilidad-icon">
+                                <p class="dia-3-visibilidad-km"></p>
+                            </div>
+                            <div class="dia-3-probabilidad-lluvia">
+                                <img src="./assets/probabilidad-lluvia.svg" alt="probabilidad lluvia"
+                                    class="dia-3-probabilidad-lluvia-icon">
+                                <p class="dia-3-porcentaje-probilidad-lluvia"></p>
+                            </div>
+                        </div>
+                    </span>
+
+                    <span class="dia-4">
+                        <p class="dia-4-parrafo"></p>
+                        <img src="" alt="clima" class="dia-4-icon">
+                        <p class="dia-4-clima"></p>
+                        <div class="dia-4-temperaturas">
+                            <img src="./assets/temperatura.svg" alt="Temperatura" class="dia-4-temperatura-icon">
+                            <p class="dia-4-actual"></p>
+                            <div class="dia-4-separador"></div>
+                            <div class="dia-4-min-max">
+                                <p class="dia-4-max"></p>
+                                <p class="dia-4-min"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-4-viento-humedad">
+                            <div class="dia-4-viento">
+                                <img src="./assets/viento.svg" alt="viento" class="dia-4-viento-icon">
+                                <p class="dia-4-velocidad-viento"></p>
+                            </div>
+                            <div class="dia-4-humedad">
+                                <img src="./assets/humedad.svg" alt="humedad" class="dia-4-humedad-icon">
+                                <p class="dia-4-porcentaje-humedad"></p>
+                            </div>
+                        </div>
+
+                        <div class="dia-4-visibilidad-probabilidad-lluvia">
+                            <div class="dia-4-visibilidad">
+                                <img src="./assets/visibilidad.svg" alt="visibilidad" class="dia-4-visibilidad-icon">
+                                <p class="dia-4-visibilidad-km"></p>
+                            </div>
+                            <div class="dia-4-probabilidad-lluvia">
+                                <img src="./assets/probabilidad-lluvia.svg" alt="probabilidad lluvia"
+                                    class="dia-4-probabilidad-lluvia-icon">
+                                <p class="dia-4-porcentaje-probilidad-lluvia"></p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
