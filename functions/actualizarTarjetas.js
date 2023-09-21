@@ -196,102 +196,102 @@ export function actualizarTarjetas(json) {
     if(nieveDia4 > 0.2) tiempoNieveDia4 = true;
 
     if(diaActualHora >= 6 && diaActualHora <= 18){
-        $diaActual.querySelector(".dia-actual-icon").src = "img-git/dia.svg";
+        $diaActual.querySelector(".dia-actual-icon").src = "assets/dia.svg";
         $diaActual.querySelector(".clima").textContent = "Despejado";
         if(tiempoParcialmenteNublado){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nublado-dia.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nublado-dia.svg";
             $diaActual.querySelector(".clima").textContent = "Parcialmente nublado";
         };
         if(tiempoNublado){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nublado-total.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nublado-total.svg";
             $diaActual.querySelector(".clima").textContent = "Nublado";
         };
         if(tiempoLluvia){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/lluvia.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/lluvia.svg";
             $diaActual.querySelector(".clima").textContent = "LLuvioso";
         };
         if(tiempoNieve){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nieve.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nieve.svg";
             $diaActual.querySelector(".clima").textContent = "Nevando";
         };
     }
     else{
-        $diaActual.querySelector(".dia-actual-icon").src = "img-git/noche.svg";
+        $diaActual.querySelector(".dia-actual-icon").src = "assets/noche.svg";
         $diaActual.querySelector(".clima").textContent = "Despejado";
         if(tiempoParcialmenteNublado){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nublado-noche.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nublado-noche.svg";
             $diaActual.querySelector(".clima").textContent = "Parcialmente nublado";
         };
         if(tiempoNublado){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nublado-total.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nublado-total.svg";
             $diaActual.querySelector(".clima").textContent = "Nublado";
         };
         if(tiempoLluvia){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/lluvia.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/lluvia.svg";
             $diaActual.querySelector(".clima").textContent = "LLuvioso";
         };
         if(tiempoNieve){
-            $diaActual.querySelector(".dia-actual-icon").src = "img-git/nieve.svg";
+            $diaActual.querySelector(".dia-actual-icon").src = "assets/nieve.svg";
             $diaActual.querySelector(".clima").textContent = "Nevando";
         };
     };
 
-    $dia2.querySelector(".dia-2-icon").src = "img-git/dia.svg";
+    $dia2.querySelector(".dia-2-icon").src = "assets/dia.svg";
     $dia2.querySelector(".dia-2-clima").textContent = "Despejado";
     if(tiempoParcialmenteNubladoDia2){
-        $dia2.querySelector(".dia-2-icon").src = "img-git/nublado-dia.svg";
+        $dia2.querySelector(".dia-2-icon").src = "assets/nublado-dia.svg";
         $dia2.querySelector(".dia-2-clima").textContent = "Parcialmente nublado";
     };
     if(tiempoNubladoDia2){
-        $dia2.querySelector(".dia-2-icon").src = "img-git/nublado-total.svg";
+        $dia2.querySelector(".dia-2-icon").src = "iassets/nublado-total.svg";
         $dia2.querySelector(".dia-2-clima").textContent = "Nublado";
     };
     if(tiempoLluviaDia2){
-        $dia2.querySelector(".dia-2-icon").src = "img-git/lluvia.svg";
+        $dia2.querySelector(".dia-2-icon").src = "assets/lluvia.svg";
         $dia2.querySelector(".dia-2-clima").textContent = "LLuvioso";
     };
     if(tiempoNieveDia2){
-        $dia2.querySelector(".dia-2-icon").src = "img-git/nieve.svg";
+        $dia2.querySelector(".dia-2-icon").src = "assets/nieve.svg";
         $dia2.querySelector(".dia-2-clima").textContent = "Nevando";
     };
 
 
-    $dia3.querySelector(".dia-3-icon").src = "img-git/dia.svg";
+    $dia3.querySelector(".dia-3-icon").src = "assets/dia.svg";
     $dia3.querySelector(".dia-3-clima").textContent = "Despejado";
     if(tiempoParcialmenteNubladoDia3){
-        $dia3.querySelector(".dia-3-icon").src = "img-git/nublado-dia.svg";
+        $dia3.querySelector(".dia-3-icon").src = "assets/nublado-dia.svg";
         $dia3.querySelector(".dia-3-clima").textContent = "Parcialmente nublado";
     };
     if(tiempoNubladoDia3){
-        $dia3.querySelector(".dia-3-icon").src = "img-git/nublado-total.svg";
+        $dia3.querySelector(".dia-3-icon").src = "assets/nublado-total.svg";
         $dia3.querySelector(".dia-3-clima").textContent = "Nublado";
     };
     if(tiempoLluviaDia3){
-        $dia3.querySelector(".dia-3-icon").src = "img-git/lluvia.svg";
+        $dia3.querySelector(".dia-3-icon").src = "assets/lluvia.svg";
         $dia3.querySelector(".dia-3-clima").textContent = "LLuvioso";
     };
     if(tiempoNieveDia3){
-        $dia3.querySelector(".dia-3-icon").src = "img-git/nieve.svg";
+        $dia3.querySelector(".dia-3-icon").src = "assets/nieve.svg";
         $dia3.querySelector(".dia-3-clima").textContent = "Nevando";
     };
 
 
-    $dia4.querySelector(".dia-4-icon").src = "img-git/dia.svg";
+    $dia4.querySelector(".dia-4-icon").src = "assets/dia.svg";
     $dia4.querySelector(".dia-4-clima").textContent = "Despejado";
     if(tiempoParcialmenteNubladoDia4){
-        $dia4.querySelector(".dia-4-icon").src = "img-git/nublado-dia.svg";
+        $dia4.querySelector(".dia-4-icon").src = "assets/nublado-dia.svg";
         $dia4.querySelector(".dia-4-clima").textContent = "Parcialmente nublado";
     };
     if(tiempoNubladoDia4){
-        $dia4.querySelector(".dia-4-icon").src = "img-git/nublado-total.svg";
+        $dia4.querySelector(".dia-4-icon").src = "assets/nublado-total.svg";
         $dia4.querySelector(".dia-4-clima").textContent = "Nublado";
     };
     if(tiempoLluviaDia4){
-        $dia4.querySelector(".dia-4-icon").src = "img-git/lluvia.svg";
+        $dia4.querySelector(".dia-4-icon").src = "assets/lluvia.svg";
         $dia4.querySelector(".dia-4-clima").textContent = "LLuvioso";
     };
     if(tiempoNieveDia4){
-        $dia4.querySelector(".dia-4-icon").src = "img-git/nieve.svg";
+        $dia4.querySelector(".dia-4-icon").src = "assets/nieve.svg";
         $dia4.querySelector(".dia-4-clima").textContent = "Nevando";
     };
 };
