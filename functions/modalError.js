@@ -5,7 +5,7 @@ export function mostarModalError(error){
     const $contenedor = document.createElement("div");
     $contenedor.classList.add("contenedor-modal");
     const $img = document.createElement("img");
-    $img.src = "../assets/info.svg";
+    $img.src = "./assets/info.svg";
     $img.alt = "Info";
     const $parrafo = document.createElement("p");
     $parrafo.textContent = error;
